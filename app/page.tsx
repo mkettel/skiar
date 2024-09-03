@@ -9,7 +9,7 @@ const Map = dynamic(() => import("./components/GeneralMap"), {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-start p-6  ">
+    <main className="flex min-h-screen flex-col items-start p-6 ">
       <h1 className="text-3xl font-bold text-center mb-6">SkiAR</h1>
       <div className="flex relative flex-col w-full items-center justify-between">
         <Map />
